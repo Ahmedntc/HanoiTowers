@@ -7,12 +7,12 @@ from hanoi import Hanoi
 
 if __name__ == "__main__":
   
-  problema = Hanoi(5,3)
+    problema = Hanoi(5,3)
 
-#   res_aStar = a_estrela(problema) 
-#   res_djikstra = dijkstra(problema)
-  res_dfs = dfs(problema)
+    res_aStar = a_estrela(problema)
+    res_djikstra = dijkstra(problema)
+    res_dfs = dfs(problema)
 
-#   print(f"A* = {res_aStar}")
-#   print(f"Djikstra {res_djikstra}")
-  print(f"DFS {res_dfs}")
+    print(f"A* = {res_aStar}")
+    print(f"Djikstra {res_djikstra}")
+    print(f"DFS {res_dfs}")
